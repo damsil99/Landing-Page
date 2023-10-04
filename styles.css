@@ -76,6 +76,8 @@ section h2 {
     padding-left: 50px;
     padding: 0px;
     margin: 0;
+    max-width: 100%;
+    height: auto;
 }
   
 .parte2 {
@@ -88,6 +90,8 @@ section h2 {
     padding: 0px;
     padding-left: 30px;
     margin: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .parte1 img, .parte3 img {
@@ -130,4 +134,18 @@ footer p {
 #download {
     background-color: #444;
     color: #fff;
+}
+.cityI {
+    display: none;
+}
+
+
+
+@media (max-width: 1214px) {
+    .parte1, .parte3 {
+      display: none;
+    }
+    .cityI {
+        display: block;
+    }
 }
